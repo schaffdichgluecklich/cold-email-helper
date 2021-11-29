@@ -1,0 +1,20 @@
+{
+  "message": "adfasdfa",
+  "from": "Jurek from heyperlink \u003cjurek@heyper.link\u003e",
+  "to": "test@test.de",
+  "subject": "asdg",
+  "createdat": "2020-11-23T10:41:27.886988+01:00",
+  "uuid": "e75b69ef-a127-48d4-be1c-2a8f5424d75d",
+  "opened": null,
+  "linkclicks": {
+    "https://jurekbarth.de": [
+      "2020-11-23T10:51:13+01:00",
+      "2020-11-23T10:51:14+01:00",
+      "2020-11-23T10:51:34+01:00"
+    ],
+    "https://test.de": [
+      "2020-11-23T10:50:36+01:00",
+      "2020-11-23T10:50:42+01:00"
+    ]
+  }
+}

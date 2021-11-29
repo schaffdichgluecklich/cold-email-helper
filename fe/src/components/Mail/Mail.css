@@ -1,0 +1,22 @@
+.mail-card {
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.openclicked {
+  background: #c3fae8;
+}
+
+.opened {
+  background: #d0ebff;
+}
+
+.clicked {
+  background: #e5dbff;
+}
+
+.message-content {
+  border: 1px solid red;
+  padding: 10px;
+}

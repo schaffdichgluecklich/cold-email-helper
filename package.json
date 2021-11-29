@@ -1,0 +1,21 @@
+{
+  "name": "gomailtracking",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon --exec ./localserver.sh --signal SIGTERM"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "files/*",
+      "hits/*"
+    ],
+    "ext": "go,tmpl"
+  }
+}

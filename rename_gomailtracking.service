@@ -1,0 +1,16 @@
+Description= instance to serve jobs api
+After=network.target
+
+[Service]
+User=username
+Group=www-data
+Restart=always
+RestartSec=3
+Environment="PROD=true"
+Environment="GIN_MODE=release"
+Environment="GOMAILTRACKING_USER=sdg@yourdomain.tld"
+Environment="GOMAILTRACKING_PASSWORD=YOURPASSWORD"
+Environment="GOMAILTRACKING_FILES=/username/gomailtrackingfiles"
+ExecStart=/var/www/gomailtracking
+[Install]
+WantedBy=multi-user.target
